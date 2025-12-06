@@ -1,6 +1,6 @@
 //codigo que faz o  botoes do menu da pagina principal funcionarem 02
 const meuBot = document.getElementById("lanele");
-const urlD = "../html/principal.html";
+const urlD = "../index.html";
 
 meuBot.addEventListener("click", function() {
   window.location.href = urlD;
